@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Menlo", courier;
+    font-size: 12pt;
+}
+
+#header {
+    padding-top: 10px;
+}
+
+#console {
+    flex-shrink: 0;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.content {
+    text-indent: 4ch;
+}
+
+.content h2 {
+    text-indent: 0;
+    font-size: 13pt;
+}
+
+.options p {
+    text-indent: 8ch;
+}
+
