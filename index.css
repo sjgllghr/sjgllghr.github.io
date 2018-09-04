@@ -8,6 +8,11 @@ body {
     margin-top: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 #container {
     height: 100%;
     display: flex;
@@ -52,16 +57,20 @@ body {
     height: 100vh;
 }
 
-.content {
-    text-indent: 4ch;
+.content p {
+    margin-left: 4ch;
+    margin-right: 2ch;
 }
 
 .content h2 {
-    text-indent: 0;
     font-size: 13pt;
 }
 
+.options {
+    margin-left: 4ch;
+}
+
 .options p {
-    text-indent: 8ch;
+    margin-left: 8ch;
 }
 
