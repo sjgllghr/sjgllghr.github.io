@@ -21,6 +21,21 @@ body {
 
 #console {
     flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+#cursor {
+    background-color: #4b4c4c;
+    width: 1ch;
+}
+
+#console-end {
+    display: none;
+    background-color: white;
+    color: black;
 }
 
 .banner {
