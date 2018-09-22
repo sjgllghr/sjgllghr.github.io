@@ -70,7 +70,7 @@ a {
     margin-left: 4ch;
 }
 
-.options p {
+.options p, .command {
     margin-left: 8ch;
 }
 
